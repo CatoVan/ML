@@ -1,0 +1,64 @@
+/* =========================
+   HERO
+   ========================= */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #040631;
+}
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #040631;
+}
+
+
+/* Driver */
+
+.driver {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 70vw;
+}
+
+
+/* Helmet */
+
+.helmet {
+    position: absolute;
+    left: 10vw;
+    top: 20vh;
+    width: 550px;
+}
+
+
+/* Helmet SVG */
+
+.helmet svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* Helmet lijnen */
+
+.helmet .line {
+    stroke: #f2f3f3;
+    stroke-width: 10px;
+}
+
+
+/* =========================
+   VOLGENDE SECTIE
+   ========================= */
+
+.transition-section {
+    min-height: 100vh;
+    background: #193F61;
+    position: relative;
+    z-index: 2;
+}
